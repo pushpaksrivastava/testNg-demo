@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Projects/testNg-demo">
+        <classes>
+            <class name="com.example.testNgdemo.Test1">
+                <methods>
+                    <include name="login_test"/>
+                </methods>
+            </class>
+            <class name="com.example.testNgdemo.Test2">
+                <methods>
+                    <include name="logout"/>
+                </methods>
+            </class>
+<!--            <class name="com.example.testNgdemo.TestNgDemoApplicationTests">-->
+<!--                <methods>-->
+<!--                    <include name="contextLoads"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
